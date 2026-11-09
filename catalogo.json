@@ -1,0 +1,1128 @@
+{
+ "destacados": [
+  {
+   "id": "github",
+   "nombre": "GitHub",
+   "marca": "github",
+   "transporte": "http",
+   "destino": "https://api.githubcopilot.com/mcp/",
+   "oauthGithub": true,
+   "universitario": true,
+   "descripcion": {
+    "es": "Repositorios, issues y pull requests de tu cuenta.",
+    "en": "Repositories, issues and pull requests in your account.",
+    "pt": "Repositórios, issues e pull requests da sua conta."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "notion",
+   "nombre": "Notion",
+   "marca": "notion",
+   "transporte": "http",
+   "destino": "https://mcp.notion.com/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Busca, lee, crea y edita páginas y bases de datos de tu espacio.",
+    "en": "Search, read, create and edit pages and databases in your workspace.",
+    "pt": "Busca, lê, cria e edita páginas e bancos de dados do seu espaço."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "canva",
+   "nombre": "Canva",
+   "marca": "canva",
+   "transporte": "http",
+   "destino": "https://mcp.canva.com/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Busca tus diseños, crea nuevos a partir de una idea y los exporta.",
+    "en": "Find your designs, create new ones from an idea and export them.",
+    "pt": "Busca seus designs, cria novos a partir de uma ideia e os exporta."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "granola",
+   "nombre": "Granola",
+   "marca": "granola",
+   "transporte": "http",
+   "destino": "https://mcp.granola.ai/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Las notas y transcripciones de tus reuniones.",
+    "en": "Your meeting notes and transcripts.",
+    "pt": "As notas e transcrições das suas reuniões."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "trello",
+   "nombre": "Trello",
+   "marca": "trello",
+   "transporte": "http",
+   "destino": "https://mcp.trello.com/v1",
+   "descripcion": {
+    "es": "Tableros, listas y tarjetas de tus espacios de trabajo.",
+    "en": "Boards, lists and cards in your workspaces.",
+    "pt": "Quadros, listas e cartões dos seus espaços de trabalho."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "linkedin-theona",
+   "nombre": "LinkedIn (Theona)",
+   "marca": "linkedin",
+   "transporte": "http",
+   "destino": "https://linkedin-mcp.theona.app/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Redacta y revisa publicaciones de LinkedIn; cada una espera tu aprobación antes de salir. No es de LinkedIn: es de Theona.",
+    "en": "Drafts and reviews LinkedIn posts; each one waits for your approval before going out. Not by LinkedIn: by Theona.",
+    "pt": "Redige e revisa publicações do LinkedIn; cada uma espera sua aprovação antes de sair. Não é do LinkedIn: é da Theona."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "microsoft-learn",
+   "nombre": "Microsoft Learn",
+   "marca": "microsoft",
+   "transporte": "http",
+   "destino": "https://learn.microsoft.com/api/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "La documentación oficial de Microsoft y Azure, con ejemplos de código. Sin cuenta.",
+    "en": "Official Microsoft and Azure documentation, with code samples. No account needed.",
+    "pt": "A documentação oficial da Microsoft e do Azure, com exemplos de código. Sem conta."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "gmail",
+   "nombre": "Gmail",
+   "marca": "gmail",
+   "transporte": "http",
+   "destino": "https://gmailmcp.googleapis.com/mcp/v1",
+   "descripcion": {
+    "es": "Leer, buscar y redactar correos.",
+    "en": "Read, search and draft email.",
+    "pt": "Ler, buscar e redigir e-mails."
+   },
+   "herramientas": [
+    {
+     "nombre": "search_mail",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "draft_mail",
+     "permiso": "preguntar",
+     "destructiva": false
+    },
+    {
+     "nombre": "send_mail",
+     "permiso": "preguntar",
+     "destructiva": true
+    }
+   ]
+  },
+  {
+   "id": "drive",
+   "nombre": "Google Drive",
+   "marca": "drive",
+   "transporte": "http",
+   "destino": "https://drivemcp.googleapis.com/mcp/v1",
+   "universitario": true,
+   "descripcion": {
+    "es": "Buscar y leer documentos y hojas.",
+    "en": "Search and read docs and sheets.",
+    "pt": "Buscar e ler documentos e planilhas."
+   },
+   "herramientas": [
+    {
+     "nombre": "search_files",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "read_file",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "delete_file",
+     "permiso": "preguntar",
+     "destructiva": true
+    }
+   ]
+  },
+  {
+   "id": "calendar",
+   "nombre": "Google Calendar",
+   "marca": "calendar",
+   "transporte": "http",
+   "destino": "https://calendarmcp.googleapis.com/mcp/v1",
+   "universitario": true,
+   "descripcion": {
+    "es": "Ver tus eventos y cuándo estás libre, crear y mover reuniones y responder invitaciones.",
+    "en": "See your events and when you're free, create and move meetings and answer invitations.",
+    "pt": "Ver seus eventos e quando você está livre, criar e mover reuniões e responder convites."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "docs",
+   "nombre": "Google Docs",
+   "marca": "docs",
+   "transporte": "http",
+   "destino": "https://docsmcp.googleapis.com/mcp/v1",
+   "universitario": true,
+   "descripcion": {
+    "es": "Leer y editar tus documentos de Google Docs.",
+    "en": "Read and edit your Google Docs documents.",
+    "pt": "Ler e editar seus documentos do Google Docs."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "sheets",
+   "nombre": "Google Sheets",
+   "marca": "sheets",
+   "transporte": "http",
+   "destino": "https://sheetsmcp.googleapis.com/mcp/v1",
+   "universitario": true,
+   "descripcion": {
+    "es": "Leer y editar tus hojas de cálculo.",
+    "en": "Read and edit your spreadsheets.",
+    "pt": "Ler e editar suas planilhas."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "slack",
+   "nombre": "Slack",
+   "marca": "slack",
+   "transporte": "http",
+   "destino": "https://mcp.slack.com/mcp",
+   "descripcion": {
+    "es": "Leer canales y enviar mensajes.",
+    "en": "Read channels and send messages.",
+    "pt": "Ler canais e enviar mensagens."
+   },
+   "herramientas": [
+    {
+     "nombre": "read_channel",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "send_message",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "asana",
+   "nombre": "Asana",
+   "marca": "asana",
+   "transporte": "http",
+   "destino": "https://mcp.asana.com/v2/mcp",
+   "descripcion": {
+    "es": "Tareas y proyectos de tu equipo.",
+    "en": "Your team's tasks and projects.",
+    "pt": "Tarefas e projetos da sua equipe."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_tasks",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "create_task",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "atlassian",
+   "nombre": "Atlassian",
+   "marca": "atlassian",
+   "transporte": "http",
+   "destino": "https://mcp.atlassian.com/v2/mcp",
+   "descripcion": {
+    "es": "Jira y Confluence: tickets y páginas.",
+    "en": "Jira and Confluence: tickets and pages.",
+    "pt": "Jira e Confluence: tickets e páginas."
+   },
+   "herramientas": [
+    {
+     "nombre": "search_issues",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "create_issue",
+     "permiso": "preguntar",
+     "destructiva": false
+    },
+    {
+     "nombre": "search_pages",
+     "permiso": "permitir",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "linear",
+   "nombre": "Linear",
+   "marca": "linear",
+   "transporte": "http",
+   "destino": "https://mcp.linear.app/mcp",
+   "descripcion": {
+    "es": "Issues, ciclos y proyectos.",
+    "en": "Issues, cycles and projects.",
+    "pt": "Issues, ciclos e projetos."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_issues",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "create_issue",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "hubspot",
+   "nombre": "HubSpot",
+   "marca": "hubspot",
+   "transporte": "http",
+   "destino": "https://mcp.hubspot.com/anthropic",
+   "descripcion": {
+    "es": "Contactos, empresas y negocios del CRM.",
+    "en": "CRM contacts, companies and deals.",
+    "pt": "Contatos, empresas e negócios do CRM."
+   },
+   "herramientas": [
+    {
+     "nombre": "search_contacts",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "update_deal",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "zapier",
+   "nombre": "Zapier",
+   "marca": "zapier",
+   "transporte": "http",
+   "destino": "https://mcp.zapier.com/api/v1/connect",
+   "descripcion": {
+    "es": "Miles de apps a través de tus zaps.",
+    "en": "Thousands of apps through your zaps.",
+    "pt": "Milhares de apps pelos seus zaps."
+   },
+   "herramientas": [
+    {
+     "nombre": "run_action",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "sentry",
+   "nombre": "Sentry",
+   "marca": "sentry",
+   "transporte": "http",
+   "destino": "https://mcp.sentry.dev/mcp",
+   "descripcion": {
+    "es": "Errores y rendimiento de tus apps.",
+    "en": "Errors and performance of your apps.",
+    "pt": "Erros e desempenho dos seus apps."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_issues",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "resolve_issue",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "cloudflare",
+   "nombre": "Cloudflare",
+   "marca": "cloudflare",
+   "transporte": "http",
+   "destino": "https://mcp.cloudflare.com/mcp",
+   "descripcion": {
+    "es": "Workers, DNS y registros.",
+    "en": "Workers, DNS and logs.",
+    "pt": "Workers, DNS e logs."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_workers",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "deploy_worker",
+     "permiso": "preguntar",
+     "destructiva": true
+    }
+   ]
+  },
+  {
+   "id": "airtable",
+   "nombre": "Airtable",
+   "marca": "airtable",
+   "transporte": "http",
+   "destino": "https://mcp.airtable.com/mcp",
+   "descripcion": {
+    "es": "Bases, tablas y registros.",
+    "en": "Bases, tables and records.",
+    "pt": "Bases, tabelas e registros."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_records",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "create_record",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "monday",
+   "nombre": "monday.com",
+   "marca": "monday",
+   "transporte": "http",
+   "destino": "https://mcp.monday.com/mcp",
+   "descripcion": {
+    "es": "Tableros y elementos de trabajo.",
+    "en": "Boards and work items.",
+    "pt": "Quadros e itens de trabalho."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_items",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "create_item",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "intercom",
+   "nombre": "Intercom",
+   "marca": "intercom",
+   "transporte": "http",
+   "destino": "https://mcp.intercom.com/mcp",
+   "descripcion": {
+    "es": "Conversaciones con clientes.",
+    "en": "Customer conversations.",
+    "pt": "Conversas com clientes."
+   },
+   "herramientas": [
+    {
+     "nombre": "search_conversations",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "reply",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "stripe",
+   "nombre": "Stripe",
+   "marca": "stripe",
+   "transporte": "http",
+   "destino": "https://mcp.stripe.com",
+   "descripcion": {
+    "es": "Consultar pagos y clientes.",
+    "en": "Look up payments and customers.",
+    "pt": "Consultar pagamentos e clientes."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_payments",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "refund",
+     "permiso": "preguntar",
+     "destructiva": true
+    }
+   ]
+  },
+  {
+   "id": "paypal",
+   "nombre": "PayPal",
+   "marca": "paypal",
+   "transporte": "http",
+   "destino": "https://mcp.paypal.com/http",
+   "descripcion": {
+    "es": "Transacciones y facturas.",
+    "en": "Transactions and invoices.",
+    "pt": "Transações e faturas."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_transactions",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "create_invoice",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "box",
+   "nombre": "Box",
+   "marca": "box",
+   "transporte": "http",
+   "destino": "https://mcp.box.com",
+   "descripcion": {
+    "es": "Archivos de empresa en Box.",
+    "en": "Company files in Box.",
+    "pt": "Arquivos da empresa no Box."
+   },
+   "herramientas": [
+    {
+     "nombre": "search_files",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "read_file",
+     "permiso": "permitir",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "vercel",
+   "nombre": "Vercel",
+   "marca": "vercel",
+   "transporte": "http",
+   "destino": "https://mcp.vercel.com",
+   "descripcion": {
+    "es": "Despliegues, dominios y registros.",
+    "en": "Deployments, domains and logs.",
+    "pt": "Deploys, domínios e logs."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_deployments",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "redeploy",
+     "permiso": "preguntar",
+     "destructiva": true
+    }
+   ]
+  },
+  {
+   "id": "supabase",
+   "nombre": "Supabase",
+   "marca": "supabase",
+   "transporte": "http",
+   "destino": "https://mcp.supabase.com/mcp",
+   "descripcion": {
+    "es": "Tablas, funciones y registros.",
+    "en": "Tables, functions and logs.",
+    "pt": "Tabelas, funções e logs."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_tables",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "execute_sql",
+     "permiso": "preguntar",
+     "destructiva": true
+    }
+   ]
+  },
+  {
+   "id": "todoist",
+   "nombre": "Todoist",
+   "marca": "todoist",
+   "transporte": "http",
+   "destino": "https://ai.todoist.net/mcp",
+   "descripcion": {
+    "es": "Tareas y recordatorios.",
+    "en": "Tasks and reminders.",
+    "pt": "Tarefas e lembretes."
+   },
+   "herramientas": [
+    {
+     "nombre": "list_tasks",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "add_task",
+     "permiso": "permitir",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "obsidian",
+   "nombre": "Obsidian",
+   "marca": "obsidian",
+   "transporte": "stdio",
+   "destino": "uvx mcp-obsidian",
+   "licencia": "MIT",
+   "clave": {
+    "cabecera": "",
+    "variable": "OBSIDIAN_API_KEY",
+    "ayuda": "https://github.com/coddingtonbear/obsidian-local-rest-api"
+   },
+   "descripcion": {
+    "es": "Notas de tu bóveda local (con el plugin Local REST API de Obsidian; su clave está en los ajustes del plugin).",
+    "en": "Notes in your local vault (with Obsidian's Local REST API plugin; its key is in the plugin settings).",
+    "pt": "Notas do seu cofre local (com o plugin Local REST API do Obsidian; a chave fica nas configurações do plugin)."
+   },
+   "herramientas": [
+    {
+     "nombre": "search_notes",
+     "permiso": "permitir",
+     "destructiva": false
+    },
+    {
+     "nombre": "append_note",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "postgres",
+   "nombre": "PostgreSQL",
+   "marca": "postgres",
+   "transporte": "stdio",
+   "destino": "uvx postgres-mcp --access-mode=restricted",
+   "licencia": "MIT",
+   "clave": {
+    "cabecera": "",
+    "variable": "DATABASE_URI",
+    "ayuda": "https://github.com/crystaldba/postgres-mcp"
+   },
+   "descripcion": {
+    "es": "Consultas de solo lectura a tu base (pega su dirección postgresql://usuario:clave@servidor/base como clave).",
+    "en": "Read-only queries to your database (paste its postgresql://user:password@host/db address as the key).",
+    "pt": "Consultas somente leitura ao seu banco (cole o endereço postgresql://usuario:senha@servidor/banco como chave)."
+   },
+   "herramientas": [
+    {
+     "nombre": "query",
+     "permiso": "preguntar",
+     "destructiva": false
+    }
+   ]
+  },
+  {
+   "id": "huggingface",
+   "nombre": "Hugging Face",
+   "marca": "huggingface",
+   "transporte": "http",
+   "destino": "https://huggingface.co/mcp?login",
+   "universitario": true,
+   "descripcion": {
+    "es": "Busca modelos, datasets, papers y Spaces de Hugging Face, y usa las herramientas de tu cuenta.",
+    "en": "Search Hugging Face models, datasets, papers and Spaces, and use your account's tools.",
+    "pt": "Busca modelos, datasets, papers e Spaces do Hugging Face e usa as ferramentas da sua conta."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "gitlab",
+   "nombre": "GitLab",
+   "marca": "gitlab",
+   "transporte": "http",
+   "destino": "https://gitlab.com/api/v4/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Proyectos, issues y merge requests de tu cuenta de GitLab.",
+    "en": "Projects, issues and merge requests in your GitLab account.",
+    "pt": "Projetos, issues e merge requests da sua conta do GitLab."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "netlify",
+   "nombre": "Netlify",
+   "marca": "netlify",
+   "transporte": "http",
+   "destino": "https://mcp.netlify.com/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Crea y despliega sitios en Netlify y maneja sus variables de entorno.",
+    "en": "Create and deploy Netlify sites and manage their environment variables.",
+    "pt": "Cria e publica sites na Netlify e gerencia as variáveis de ambiente."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "railway",
+   "nombre": "Railway",
+   "marca": "railway",
+   "transporte": "http",
+   "destino": "https://mcp.railway.com",
+   "descripcion": {
+    "es": "Despliega servicios y bases de datos en Railway y revisa sus registros.",
+    "en": "Deploy services and databases on Railway and check their logs.",
+    "pt": "Publica serviços e bancos de dados na Railway e confere os logs."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "hostinger",
+   "nombre": "Hostinger",
+   "marca": "hostinger",
+   "transporte": "http",
+   "destino": "https://mcp.hostinger.com",
+   "descripcion": {
+    "es": "Dominios, hosting, DNS y VPS de tu cuenta de Hostinger.",
+    "en": "Domains, hosting, DNS and VPS in your Hostinger account.",
+    "pt": "Domínios, hospedagem, DNS e VPS da sua conta da Hostinger."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "mercadopago",
+   "nombre": "Mercado Pago",
+   "marca": "mercadopago",
+   "transporte": "http",
+   "destino": "https://mcp.mercadopago.com/mcp",
+   "descripcion": {
+    "es": "Documentación y herramientas para integrar los pagos de Mercado Pago en tu código.",
+    "en": "Docs and tools to integrate Mercado Pago payments into your code.",
+    "pt": "Documentação e ferramentas para integrar os pagamentos do Mercado Pago no seu código."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "miro",
+   "nombre": "Miro",
+   "marca": "miro",
+   "transporte": "http",
+   "destino": "https://mcp.miro.com/",
+   "universitario": true,
+   "descripcion": {
+    "es": "Lee y crea tableros de Miro: diagramas, notas y mapas de ideas.",
+    "en": "Read and create Miro boards: diagrams, notes and mind maps.",
+    "pt": "Lê e cria quadros do Miro: diagramas, notas e mapas mentais."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "prisma",
+   "nombre": "Prisma Postgres",
+   "marca": "prisma",
+   "transporte": "http",
+   "destino": "https://mcp.prisma.io/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Crea y administra bases de datos Postgres de Prisma, con migraciones y consultas.",
+    "en": "Create and manage Prisma Postgres databases, with migrations and queries.",
+    "pt": "Cria e administra bancos Postgres da Prisma, com migrações e consultas."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "expo",
+   "nombre": "Expo",
+   "marca": "expo",
+   "transporte": "http",
+   "destino": "https://mcp.expo.dev/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Apps móviles con React Native y Expo: documentación, compilaciones y despliegues.",
+    "en": "Mobile apps with React Native and Expo: docs, builds and deployments.",
+    "pt": "Apps móveis com React Native e Expo: documentação, builds e publicações."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "wix",
+   "nombre": "Wix",
+   "marca": "wix",
+   "transporte": "http",
+   "destino": "https://mcp.wix.com/mcp",
+   "descripcion": {
+    "es": "Administra tu sitio de Wix: páginas, tienda, reservas y contenido.",
+    "en": "Manage your Wix site: pages, store, bookings and content.",
+    "pt": "Administra seu site Wix: páginas, loja, reservas e conteúdo."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "resend",
+   "nombre": "Resend",
+   "marca": "resend",
+   "transporte": "http",
+   "destino": "https://mcp.resend.com/mcp",
+   "descripcion": {
+    "es": "Envía correos desde tu app con Resend y revisa dominios y entregas.",
+    "en": "Send email from your app with Resend and check domains and deliveries.",
+    "pt": "Envia e-mails do seu app com o Resend e confere domínios e entregas."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "posthog",
+   "nombre": "PostHog",
+   "marca": "posthog",
+   "transporte": "http",
+   "destino": "https://mcp.posthog.com/mcp",
+   "descripcion": {
+    "es": "Analítica de producto: eventos, embudos, feature flags y errores.",
+    "en": "Product analytics: events, funnels, feature flags and errors.",
+    "pt": "Analytics de produto: eventos, funis, feature flags e erros."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "grafana",
+   "nombre": "Grafana Cloud",
+   "marca": "grafana",
+   "transporte": "http",
+   "destino": "https://mcp.grafana.com/mcp",
+   "descripcion": {
+    "es": "Paneles, métricas, logs, trazas y alertas de Grafana Cloud.",
+    "en": "Grafana Cloud dashboards, metrics, logs, traces and alerts.",
+    "pt": "Painéis, métricas, logs, traces e alertas do Grafana Cloud."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "appwrite",
+   "nombre": "Appwrite",
+   "marca": "appwrite",
+   "transporte": "http",
+   "destino": "https://mcp.appwrite.io/",
+   "universitario": true,
+   "descripcion": {
+    "es": "Backend de Appwrite: bases de datos, usuarios, almacenamiento y funciones.",
+    "en": "Appwrite backend: databases, users, storage and functions.",
+    "pt": "Backend do Appwrite: bancos de dados, usuários, armazenamento e funções."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "exa",
+   "nombre": "Exa",
+   "marca": "exa",
+   "transporte": "http",
+   "destino": "https://mcp.exa.ai/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Búsqueda web pensada para IA: páginas, artículos científicos, código y empresas.",
+    "en": "AI-oriented web search: pages, research papers, code and companies.",
+    "pt": "Busca na web pensada para IA: páginas, artigos científicos, código e empresas."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "tavily",
+   "nombre": "Tavily",
+   "marca": "tavily",
+   "transporte": "http",
+   "destino": "https://mcp.tavily.com/mcp",
+   "universitario": true,
+   "descripcion": {
+    "es": "Búsqueda y extracción web en tiempo real, con fuentes citadas.",
+    "en": "Real-time web search and extraction, with cited sources.",
+    "pt": "Busca e extração na web em tempo real, com fontes citadas."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "youcom",
+   "nombre": "You.com",
+   "marca": "youcom",
+   "transporte": "http",
+   "destino": "https://api.you.com/mcp?profile=discover",
+   "universitario": true,
+   "descripcion": {
+    "es": "Búsqueda web con resultados al día; el perfil gratuito no pide clave.",
+    "en": "Web search with fresh results; the free profile needs no key.",
+    "pt": "Busca na web com resultados atuais; o perfil gratuito não pede chave."
+   },
+   "herramientas": []
+  }
+ ],
+ "abiertos": [
+  {
+   "id": "abierto-fetch",
+   "nombre": "Fetch",
+   "marca": "fetch",
+   "transporte": "stdio",
+   "destino": "uvx mcp-server-fetch",
+   "licencia": "MIT",
+   "descripcion": {
+    "es": "Descarga una página web y la convierte en texto limpio para leerla.",
+    "en": "Downloads a web page and turns it into clean text to read.",
+    "pt": "Baixa uma página web e a converte em texto limpo para ler."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-git",
+   "nombre": "Git",
+   "marca": "git",
+   "transporte": "stdio",
+   "destino": "uvx mcp-server-git",
+   "licencia": "MIT",
+   "descripcion": {
+    "es": "Lee y opera repositorios de Git en tu PC: estado, diferencias, historial y commits.",
+    "en": "Reads and operates Git repositories on your PC: status, diffs, history and commits.",
+    "pt": "Lê e opera repositórios Git no seu PC: estado, diferenças, histórico e commits."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-time",
+   "nombre": "Time",
+   "marca": "time",
+   "transporte": "stdio",
+   "destino": "uvx mcp-server-time",
+   "licencia": "MIT",
+   "descripcion": {
+    "es": "Hora actual y conversión entre zonas horarias.",
+    "en": "Current time and time zone conversion.",
+    "pt": "Hora atual e conversão entre fusos horários."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-memory",
+   "nombre": "Memory (grafo)",
+   "marca": "memory",
+   "transporte": "stdio",
+   "destino": "npx -y @modelcontextprotocol/server-memory",
+   "licencia": "Código abierto",
+   "descripcion": {
+    "es": "Un grafo de conocimiento para recordar entidades y relaciones entre conversaciones.",
+    "en": "A knowledge graph to remember entities and relations across conversations.",
+    "pt": "Um grafo de conhecimento para lembrar entidades e relações entre conversas."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-pensamiento",
+   "nombre": "Sequential Thinking",
+   "marca": "pensamiento",
+   "transporte": "stdio",
+   "destino": "npx -y @modelcontextprotocol/server-sequential-thinking",
+   "licencia": "Código abierto",
+   "descripcion": {
+    "es": "Ayuda a resolver problemas difíciles paso a paso, con revisión de ideas.",
+    "en": "Helps solve hard problems step by step, with revision of ideas.",
+    "pt": "Ajuda a resolver problemas difíceis passo a passo, com revisão de ideias."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-playwright",
+   "nombre": "Playwright",
+   "marca": "playwright",
+   "transporte": "stdio",
+   "destino": "npx -y @playwright/mcp@latest",
+   "licencia": "Apache-2.0",
+   "descripcion": {
+    "es": "Maneja un navegador de verdad: abre páginas, hace clic, rellena formularios y captura pantalla.",
+    "en": "Drives a real browser: opens pages, clicks, fills forms and takes screenshots.",
+    "pt": "Controla um navegador de verdade: abre páginas, clica, preenche formulários e captura a tela."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-context7",
+   "nombre": "Context7",
+   "marca": "context7",
+   "transporte": "stdio",
+   "destino": "npx -y @upstash/context7-mcp",
+   "licencia": "MIT",
+   "universitario": true,
+   "descripcion": {
+    "es": "Documentación actualizada de librerías y frameworks para que el agente no use APIs viejas.",
+    "en": "Up-to-date docs for libraries and frameworks so the agent doesn't use old APIs.",
+    "pt": "Documentação atualizada de bibliotecas e frameworks para o agente não usar APIs antigas."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-devtools",
+   "nombre": "Chrome DevTools",
+   "marca": "devtools",
+   "transporte": "stdio",
+   "destino": "npx -y chrome-devtools-mcp@latest",
+   "licencia": "Apache-2.0",
+   "descripcion": {
+    "es": "Depura y mide páginas en Chrome: consola, red, rendimiento y capturas.",
+    "en": "Debugs and measures pages in Chrome: console, network, performance and screenshots.",
+    "pt": "Depura e mede páginas no Chrome: console, rede, desempenho e capturas."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-notion",
+   "nombre": "Notion (token propio)",
+   "marca": "notion",
+   "transporte": "stdio",
+   "destino": "npx -y @notionhq/notion-mcp-server",
+   "licencia": "MIT",
+   "clave": {
+    "cabecera": "",
+    "variable": "NOTION_TOKEN",
+    "ayuda": "https://www.notion.so/profile/integrations"
+   },
+   "descripcion": {
+    "es": "Lee y edita tus páginas y bases de Notion con una integración propia.",
+    "en": "Reads and edits your Notion pages and databases with your own integration.",
+    "pt": "Lê e edita suas páginas e bancos do Notion com uma integração própria."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-figma",
+   "nombre": "Figma (token personal)",
+   "marca": "figma",
+   "transporte": "stdio",
+   "destino": "npx -y figma-developer-mcp --stdio",
+   "licencia": "MIT",
+   "clave": {
+    "cabecera": "",
+    "variable": "FIGMA_API_KEY",
+    "ayuda": "https://www.figma.com/settings"
+   },
+   "descripcion": {
+    "es": "Lee archivos y frames de Figma con un token personal: sin registrar ninguna app.",
+    "en": "Reads Figma files and frames with a personal token: no app to register.",
+    "pt": "Lê arquivos e frames do Figma com um token pessoal: sem registrar nenhum app."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-scholar",
+   "nombre": "Google Académico",
+   "marca": "scholar",
+   "transporte": "stdio",
+   "destino": "uvx --from google-scholar-search-mcp google-scholar-mcp",
+   "licencia": "MIT",
+   "universitario": true,
+   "descripcion": {
+    "es": "Busca artículos, autores y citas en Google Académico, y saca la referencia en BibTeX. Si buscas mucho seguido, Google puede frenarlo un rato.",
+    "en": "Searches papers, authors and citations on Google Scholar and gets the BibTeX reference. If you search a lot in a row, Google may slow it down for a while.",
+    "pt": "Busca artigos, autores e citações no Google Acadêmico e gera a referência em BibTeX. Se buscar muito seguido, o Google pode frear por um tempo."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-brave",
+   "nombre": "Brave Search",
+   "marca": "busqueda",
+   "transporte": "stdio",
+   "destino": "npx -y @brave/brave-search-mcp-server",
+   "licencia": "MIT",
+   "clave": {
+    "cabecera": "",
+    "variable": "BRAVE_API_KEY",
+    "ayuda": "https://brave.com/search/api/"
+   },
+   "descripcion": {
+    "es": "Búsquedas en la web, imágenes y noticias con la API de Brave (hay plan gratuito).",
+    "en": "Web, image and news search with the Brave API (there is a free plan).",
+    "pt": "Buscas na web, imagens e notícias com a API do Brave (há plano gratuito)."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-serena",
+   "nombre": "Serena",
+   "marca": "serena",
+   "transporte": "stdio",
+   "destino": "uvx --from git+https://github.com/oraios/serena serena start-mcp-server",
+   "licencia": "GPL-3.0",
+   "descripcion": {
+    "es": "Entiende tu código como un IDE: busca símbolos, referencias y edita funciones enteras con precisión.",
+    "en": "Understands your code like an IDE: finds symbols and references and edits whole functions precisely.",
+    "pt": "Entende seu código como uma IDE: busca símbolos e referências e edita funções inteiras com precisão."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-firebase",
+   "nombre": "Firebase",
+   "marca": "firebase",
+   "transporte": "stdio",
+   "destino": "npx -y firebase-tools@latest mcp",
+   "licencia": "MIT",
+   "universitario": true,
+   "descripcion": {
+    "es": "Tu proyecto de Firebase: Firestore, autenticación, hosting y funciones (usa tu sesión de firebase login).",
+    "en": "Your Firebase project: Firestore, auth, hosting and functions (uses your firebase login session).",
+    "pt": "Seu projeto Firebase: Firestore, autenticação, hosting e funções (usa sua sessão do firebase login)."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-azure",
+   "nombre": "Azure",
+   "marca": "azure",
+   "transporte": "stdio",
+   "destino": "npx -y @azure/mcp@latest server start",
+   "licencia": "MIT",
+   "universitario": true,
+   "descripcion": {
+    "es": "Recursos de Azure de tu cuenta (sirve con Azure para Estudiantes); usa tu sesión de az login.",
+    "en": "Azure resources in your account (works with Azure for Students); uses your az login session.",
+    "pt": "Recursos do Azure da sua conta (serve com o Azure para Estudantes); usa sua sessão do az login."
+   },
+   "herramientas": []
+  }
+ ]
+}
