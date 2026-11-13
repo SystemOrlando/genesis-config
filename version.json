@@ -1,5 +1,5 @@
 {
     "version":  "0.2.5",
     "url":  "https://github.com/SystemOrlando/genesis-app/releases/latest",
-    "notas":  "Conexiones más resistentes: si el DNS falla, GÉNESIS usa un plan B"
+    "notas":  "Inicio de sesión con Google en cualquier PC y conexiones más resistentes"
 }
