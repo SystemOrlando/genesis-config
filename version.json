@@ -1,5 +1,5 @@
 {
-    "version":  "0.2.12",
+    "version":  "0.2.13",
     "url":  "https://github.com/SystemOrlando/genesis-app/releases/latest",
-    "notas":  "Más rápido con OpenCode, Claude y Gemini, clics al instante y ojos sin capturas"
+    "notas":  "Claude: pega el código de inicio de sesión en GÉNESIS o usa una clave de API, sin terminal"
 }
