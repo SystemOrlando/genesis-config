@@ -1,5 +1,5 @@
 {
-    "version":  "0.2.15",
+    "version":  "0.2.16",
     "url":  "https://github.com/SystemOrlando/genesis-app/releases/latest",
-    "notas":  "Ve la pantalla como tú: vista con elementos numerados, OCR de Windows y ratón con trayecto"
+    "notas":  "Arregla errores de órdenes largas y renueva sola la sesión del motor"
 }
