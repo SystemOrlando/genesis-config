@@ -1123,6 +1123,26 @@
     "pt": "Recursos do Azure da sua conta (serve com o Azure para Estudantes); usa sua sessão do az login."
    },
    "herramientas": []
+  },
+  {
+   "id": "abierto-dataverse",
+   "nombre": "Power Apps · Dataverse",
+   "marca": "microsoft",
+   "transporte": "stdio",
+   "destino": "npx -y @microsoft/dataverse mcp {DATAVERSE_URL}",
+   "licencia": "MIT",
+   "universitario": true,
+   "clave": {
+    "cabecera": "",
+    "variable": "DATAVERSE_URL",
+    "ayuda": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-mcp-other-clients"
+   },
+   "descripcion": {
+    "es": "Servidor oficial de Microsoft (vista previa) para los datos de Power Apps: tablas, registros y soluciones de Dataverse. Pega como clave la dirección de tu entorno (https://tuorg.crm.dynamics.com) e inicia sesión una vez con «npx @microsoft/dataverse auth create --environment esa-dirección». Tu administrador debe tener habilitado el MCP de Dataverse.",
+    "en": "Microsoft's official server (preview) for Power Apps data: Dataverse tables, records and solutions. Paste your environment address (https://yourorg.crm.dynamics.com) as the key and sign in once with “npx @microsoft/dataverse auth create --environment that-address”. Your admin must have Dataverse MCP enabled.",
+    "pt": "Servidor oficial da Microsoft (prévia) para os dados do Power Apps: tabelas, registros e soluções do Dataverse. Cole como chave o endereço do seu ambiente (https://suaorg.crm.dynamics.com) e entre uma vez com «npx @microsoft/dataverse auth create --environment esse-endereço». Seu administrador precisa ter o MCP do Dataverse habilitado."
+   },
+   "herramientas": []
   }
  ]
 }

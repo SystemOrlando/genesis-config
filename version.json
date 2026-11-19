@@ -1,5 +1,5 @@
 {
-    "version":  "0.2.16",
+    "version":  "0.2.17",
     "url":  "https://github.com/SystemOrlando/genesis-app/releases/latest",
-    "notas":  "Arregla errores de órdenes largas y renueva sola la sesión del motor"
+    "notas":  "Sesiones de trabajo con memoria propia, preguntas sobre la orden anterior al instante y tocar lo que ve"
 }
