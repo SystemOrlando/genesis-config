@@ -1143,6 +1143,36 @@
     "pt": "Servidor oficial da Microsoft (prévia) para os dados do Power Apps: tabelas, registros e soluções do Dataverse. Cole como chave o endereço do seu ambiente (https://suaorg.crm.dynamics.com) e entre uma vez com «npx @microsoft/dataverse auth create --environment esse-endereço». Seu administrador precisa ter o MCP do Dataverse habilitado."
    },
    "herramientas": []
+  },
+  {
+   "id": "abierto-powerplatform",
+   "nombre": "Power Platform (Power Apps y Power Automate)",
+   "marca": "microsoft",
+   "transporte": "stdio",
+   "destino": "npx -y powerplatform-mcp-server",
+   "licencia": "Community License (gratis, no se vende)",
+   "universitario": true,
+   "descripcion": {
+    "es": "Power Apps, Power Automate y más, sin registrar ninguna app: crea y arregla flujos, apps de lienzo, conexiones, archivos de SharePoint y Excel, Dataverse y administración (309 herramientas; el agente busca las que necesita). Entra con tu cuenta de Microsoft por la CLI de Azure. Una sola vez, en una terminal: «npx -y powerplatform-mcp-server@latest --setup» (elige tu entorno y «Everyday automation»); si ya lo configuraste para Claude, no hace falta. Si pide iniciar sesión, el agente te da un código para el navegador. Necesita Node 22.19 o más nuevo. Proyecto de un tercero, no de Microsoft.",
+    "en": "Power Apps, Power Automate and more, with no app to register: build and fix flows, canvas apps, connections, SharePoint and Excel files, Dataverse and admin (309 tools; the agent searches for the ones it needs). Signs in with your Microsoft account through the Azure CLI. Once, in a terminal: “npx -y powerplatform-mcp-server@latest --setup” (pick your environment and “Everyday automation”); if you already set it up for Claude, skip this. If it asks you to sign in, the agent gives you a code for the browser. Needs Node 22.19 or newer. Third-party project, not Microsoft's.",
+    "pt": "Power Apps, Power Automate e mais, sem registrar nenhum app: cria e corrige fluxos, apps de tela, conexões, arquivos do SharePoint e Excel, Dataverse e administração (309 ferramentas; o agente busca as que precisa). Entra com sua conta Microsoft pela CLI do Azure. Uma vez, num terminal: «npx -y powerplatform-mcp-server@latest --setup» (escolha seu ambiente e «Everyday automation»); se já configurou para o Claude, não precisa. Se pedir login, o agente te dá um código para o navegador. Precisa do Node 22.19 ou mais novo. Projeto de terceiros, não da Microsoft."
+   },
+   "herramientas": []
+  },
+  {
+   "id": "abierto-telefono",
+   "nombre": "Tu teléfono (Android / iPhone)",
+   "marca": "android",
+   "transporte": "stdio",
+   "destino": "npx -y @mobilenext/mobile-mcp@latest",
+   "licencia": "Apache-2.0",
+   "universitario": true,
+   "descripcion": {
+    "es": "Maneja tu teléfono desde GÉNESIS: ve la pantalla, toca, escribe, desliza y abre apps. Android: conéctalo por USB (o Wi-Fi) con la depuración USB activada y las herramientas ADB de Android instaladas. iPhone: necesita una Mac para el simulador o configuración extra para un equipo real.",
+    "en": "Control your phone from GÉNESIS: see the screen, tap, type, swipe and open apps. Android: connect it by USB (or Wi-Fi) with USB debugging on and Android's ADB tools installed. iPhone: needs a Mac for the simulator or extra setup for a real device.",
+    "pt": "Controle seu celular pelo GÉNESIS: veja a tela, toque, digite, deslize e abra apps. Android: conecte por USB (ou Wi-Fi) com a depuração USB ativada e as ferramentas ADB do Android instaladas. iPhone: precisa de um Mac para o simulador ou configuração extra para um aparelho real."
+   },
+   "herramientas": []
   }
  ]
 }
