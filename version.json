@@ -1,5 +1,5 @@
 {
-    "version":  "0.2.19",
+    "version":  "0.2.20",
     "url":  "https://github.com/SystemOrlando/genesis-app/releases/latest",
-    "notas":  "Power Platform se instala solo y guía el inicio de sesión (Power Apps y Power Automate con cualquier motor)"
+    "notas":  "Los errores de conectores se entienden: un nombre inventado ya no parece un permiso y las herramientas que solo consultan nacen permitidas"
 }
