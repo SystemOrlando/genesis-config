@@ -1,5 +1,5 @@
 {
-    "version":  "0.2.20",
+    "version":  "0.2.21",
     "url":  "https://github.com/SystemOrlando/genesis-app/releases/latest",
-    "notas":  "Los errores de conectores se entienden: un nombre inventado ya no parece un permiso y las herramientas que solo consultan nacen permitidas"
+    "notas":  "Exporta los logs y los errores en .gqz para depurar y entrenar, y el agente encuentra el conector por su nombre corriente"
 }
