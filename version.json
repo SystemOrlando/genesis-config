@@ -1,5 +1,5 @@
 {
-    "version":  "0.2.21",
+    "version":  "0.2.22",
     "url":  "https://github.com/SystemOrlando/genesis-app/releases/latest",
-    "notas":  "Exporta los logs y los errores en .gqz para depurar y entrenar, y el agente encuentra el conector por su nombre corriente"
+    "notas":  "Arregla lo que encontró el log de errores: el motivo llega completo, los conectores perdonan los nombres y los logs dicen qué se llamó"
 }
