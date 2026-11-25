@@ -1,5 +1,5 @@
 {
-    "version":  "0.2.22",
+    "version":  "0.2.23",
     "url":  "https://github.com/SystemOrlando/genesis-app/releases/latest",
-    "notas":  "Arregla lo que encontró el log de errores: el motivo llega completo, los conectores perdonan los nombres y los logs dicen qué se llamó"
+    "notas":  "El agente no lee tus credenciales guardadas, los conectores que piden reconectar se ven al instante y los logs ven lo de adentro del modo código"
 }
